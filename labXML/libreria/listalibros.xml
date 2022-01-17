@@ -1,0 +1,151 @@
+<!DOCTYPE listalibros SYSTEM "listalibros.dtd">
+<listalibros>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Rodriguez</apellido1>
+            <apellido2>Martin</apellido2>
+            <nombre>Manuel</nombre>
+            </autor>
+        </autores>
+        <titulo>Los gritos de Juan el mudo</titulo>
+        <editorial>La Grua</editorial>
+        <fecha_publicacion>06/08/1967</fecha_publicacion>
+        <ISBN>168</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Manzano</apellido1>
+            <apellido2>Perez</apellido2>
+            <nombre>Maria</nombre>
+            </autor>
+            <autor>
+            <apellido1>Perez</apellido1>
+            <apellido2>Garcia</apellido2>
+            <nombre>Felix</nombre>
+            </autor>
+        </autores>
+        <titulo>La casa encantada</titulo>
+        <editorial>El Gato</editorial>
+        <fecha_publicacion>12/03/1979</fecha_publicacion>
+        <ISBN>123</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Sanchez</apellido1>
+            <apellido2>Perez</apellido2>
+            <nombre>Pepe</nombre>
+            </autor>
+        </autores>
+        <titulo>La historia de Joshua</titulo>
+        <editorial>La casa verde</editorial>
+        <fecha_publicacion>11/05/2010</fecha_publicacion>
+        <ISBN>195</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Dominguez</apellido1>
+            <apellido2>Roman</apellido2>
+            <nombre>Pedro</nombre>
+            </autor>
+        </autores>
+        <titulo>El camino</titulo>
+        <editorial>Edelvives</editorial>
+        <fecha_publicacion>11/10/2012</fecha_publicacion>
+        <ISBN>156</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Gamaza</apellido1>
+            <apellido2>Montero</apellido2>
+            <nombre>Adolfo</nombre>
+            </autor>
+        </autores>
+        <titulo>Jesus, el hijo de dios</titulo>
+        <editorial>La brigada</editorial>
+        <fecha_publicacion>11/10/2002</fecha_publicacion>
+        <ISBN>235</ISBN>
+
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Manzano</apellido1>
+            <apellido2>Perez</apellido2>
+            <nombre>Maria</nombre>
+            </autor>
+            <autor>
+            <apellido1>Perez</apellido1>
+            <apellido2>Garcia</apellido2>
+            <nombre>Felix</nombre>
+            </autor>
+        </autores>
+        <titulo>La casa encantada</titulo>
+        <editorial>El Gato</editorial>
+        <fecha_publicacion>12/03/1979</fecha_publicacion>
+        <ISBN>123</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Sanchez</apellido1>
+            <apellido2>Perez</apellido2>
+            <nombre>Pepe</nombre>
+            </autor>
+        </autores>
+        <titulo>La historia de Joshua</titulo>
+        <editorial>La casa verde</editorial>
+        <fecha_publicacion>11/05/2010</fecha_publicacion>
+        <ISBN>195</ISBN>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Rodriguez</apellido1>
+            <apellido2>Martin</apellido2>
+            <nombre>Manuel</nombre>
+            </autor>
+        </autores>
+        <titulo>Los gritos de Juan el mudo</titulo>
+        <editorial>La Grua</editorial>
+        <fecha_publicacion>06/08/1967</fecha_publicacion>
+        <ISBN>168</ISBN>
+
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Manzano</apellido1>
+            <apellido2>Perez</apellido2>
+            <nombre>Maria</nombre>
+            </autor>
+            <autor>
+            <apellido1>Perez</apellido1>
+            <apellido2>Garcia</apellido2>
+            <nombre>Felix</nombre>
+            </autor>
+        </autores>
+        <titulo>La casa encantada</titulo>
+        <editorial>El Gato</editorial>
+        <fecha_publicacion>12/03/1979</fecha_publicacion>
+        <ISBN>123</ISBN>
+
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1>Gamaza</apellido1>
+            <apellido2>Montero</apellido2>
+            <nombre>Adolfo</nombre>
+            </autor>
+        </autores>
+        <titulo>Jesus, el hijo de dios</titulo>
+        <editorial>La brigada</editorial>
+        <fecha_publicacion>11/10/2002</fecha_publicacion>
+        <ISBN>235</ISBN>
+    </libro>
+</listalibros>
