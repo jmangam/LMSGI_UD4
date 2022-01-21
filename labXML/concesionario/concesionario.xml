@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+    <coche>
+        <codigo>111</codigo>
+        <marca>Renault</marca>
+        <modelo>clio</modelo>
+        <matricula>LTY7534</matricula>
+        <potencia>79</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+    </coche>
+    <coche>
+        <codigo>112</codigo>
+        <marca>Renault</marca>
+        <modelo>megane</modelo>
+        <matricula>LRE2343</matricula>
+        <potencia>100</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+    </coche>
+    <coche>
+        <codigo>113</codigo>
+        <marca>Audi</marca>
+        <modelo>A4</modelo>
+        <matricula>LWQ2134</matricula>
+        <potencia>120</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+    <coche>
+        <codigo>114</codigo>
+        <marca>seat</marca>
+        <modelo>ibiza</modelo>
+        <matricula>KWQ1234</matricula>
+        <potencia>80</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+    <coche>
+        <codigo>115</codigo>
+        <marca>seat</marca>
+        <modelo>cordoba</modelo>
+        <matricula>LOP1265</matricula>
+        <potencia>110</potencia>
+        <plazas>2</plazas>
+        <puertas>3</puertas>
+    </coche>
+</concesionario>
