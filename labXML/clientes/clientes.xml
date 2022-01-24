@@ -1,0 +1,14 @@
+<clientes>
+   <sede cod_sede="1">
+        <direccion>calle naranjo</direccion>>
+        <empleado>manuel perez</empleado>
+        <fecha_alta>11/11/12</fecha_alta>
+        <descripcion>Cliente1</descripcion>
+        <cliente cod_cliente= "1">
+            <numero_viviendas>2</numero_viviendas>
+            <coste>300000</coste>
+            <resumen>.</resumen>
+            <plazo_alta>19</plazo_alta>
+        </cliente>
+    </sede>
+</clientes>

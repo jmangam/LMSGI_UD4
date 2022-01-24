@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <sede cod_sede="1">
+         <direccion></direccion>
+         <empleado>Rodriguez</empleado>
+         <fecha_alta>Martin</fecha_alta>
+         <descripcion>Manuel</descripcion>
+         <cliente cod_cliente="1">
+             <numero_viviendas></numero_viviendas>
+             <coste></coste>
+             <resumen></resumen>
+             <plazo_alta></plazo_alta>
+         </cliente>
+     </sede>
+ </clientes>
