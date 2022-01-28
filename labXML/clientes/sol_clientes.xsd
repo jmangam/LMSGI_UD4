@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation xml:lang= "ES-es">
+            <fecha>2020-01-31</fecha>
+            <autor>Javier Manzano Gamaza</autor>
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="clientes" type="clientesdatos" />
+    <xs:complexType name="clientesdatos">
+        <xs:sequence>
+            <xs:element name="sede" type="sededatos" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="sededatos">
+        <xs:sequence>
+            <xs:element name="direccion" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="empleado" type="xs:string"/>
+            <xs:element name="fecha" type="xs:string"/>
+            <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+            <xs:element name="cliente" type="clientesdatos" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="codigotipo" use="required"/>
+    </xs:complexType>
+    <xs:simpleType name="codigotipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z]([A-Za-Z0-9]){7}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="clientesDatos">
+        <xs:sequence>
+            <xs:element name="numero">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="coste">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="resumen" type="xs:string" />
+            <xs:element name="plazo">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+            <xs:attribute name="codigo" type="codigocliente" use="required"/>
+    </xs:complexType>
+    <xs:simpleType name="codigocliente">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z] {3}-[0-9]){3}"/>
+        </xs:restriction>
+    </xs:simpleType>    
+</xs:schema>
