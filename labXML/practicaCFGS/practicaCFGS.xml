@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<practicas>
+    <alumno>
+        <nif>54898654D</nif>
+        <resultado>Apto</resultado>
+        <observaciones>
+            <años>20</años>
+            <poblacion>Cadiz</poblacion>
+        </observaciones>
+        <ip>192.168.10.10</ip>
+    </alumno>
+    <alumno>
+        <nif>80863465E</nif>
+        <resultado>No apto</resultado>
+        <mac>56:FE:45:CA:45:12</mac>
+    </alumno>
+</practicas>

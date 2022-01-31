@@ -1,13 +1,18 @@
-<!ELEMENT clientes (sede+)>
-<!ELEMENT sede (direccion, empleado, fecha_alta, descripcion, cliente)>
-<!ATTLIST sede cod_sede CDATA #REQUIRED>
+<?xml encoding="UTF-8"?>
+<!ELEMENT clientes (sede)>
+<!ELEMENT sede (direccion,empleado,fecha_alta,descripcion,cliente)>
+<!ATTLIST sede
+  xmlns CDATA #FIXED ''
+  cod_sede CDATA #REQUIRED>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT empleado (#PCDATA)>
 <!ELEMENT fecha_alta (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT cliente (numero_viviendas, coste, resumen, plazo_alta)>
-<!ATTLIST cliente cod_cliente CDATA #REQUIRED>
+<!ELEMENT cliente (numero_viviendas,coste,resumen,plazo_alta)>
+<!ATTLIST cliente
+  xmlns CDATA #FIXED ''
+  cod_cliente CDATA #REQUIRED>
 <!ELEMENT numero_viviendas (#PCDATA)>
 <!ELEMENT coste (#PCDATA)>
-<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT resumen EMPTY>
 <!ELEMENT plazo_alta (#PCDATA)>

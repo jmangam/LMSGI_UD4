@@ -1,0 +1,10 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT practicas (alumno)+>
+<!ELEMENT alumno (nif,resultado,(mac|(observaciones,ip)))>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT mac (#PCDATA)>
+<!ELEMENT observaciones (años,poblacion)>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT años (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
