@@ -9,7 +9,7 @@
          <cliente cod_cliente="1">
              <numero_viviendas>2</numero_viviendas>
              <coste>105</coste>
-             <resumen>resumen ....</resumen>
+             <resumen></resumen>
              <plazo_alta>8</plazo_alta>
          </cliente>        
     </sede>

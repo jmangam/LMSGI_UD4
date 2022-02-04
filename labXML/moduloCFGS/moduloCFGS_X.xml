@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moduloCFGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="moduloCFGS.xsd">
+    <Contenidos>
+        <bloque>
+            <Titulo>HTML</Titulo>
+            <Descripcion>Conceptos basicos de html</Descripcion>
+        </bloque>
+        <bloque>
+            <Titulo>XML</Titulo>
+            <Descripcion>Conceptos basicos de XML</Descripcion>
+        </bloque>
+    </Contenidos>
+</moduloCFGS>

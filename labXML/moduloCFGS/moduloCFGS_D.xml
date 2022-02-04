@@ -1,0 +1,13 @@
+<!DOCTYPE moduloCFGS SYSTEM "moduloCFGS.dtd">
+<moduloCFGS>
+    <Contenidos>
+        <bloque>
+            <Titulo>HTML</Titulo>
+            <Descripcion>Conceptos basicos de html</Descripcion>
+        </bloque>
+        <bloque>
+            <Titulo>XML</Titulo>
+            <Descripcion>Conceptos basicos de XML</Descripcion>
+        </bloque>
+    </Contenidos>
+</moduloCFGS>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="moduloCFGS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Contenidos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Contenidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="bloque"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bloque">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Titulo"/>
+        <xs:element ref="Descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Titulo" type="xs:NCName"/>
+  <xs:element name="Descripcion" type="xs:string"/>
+</xs:schema>

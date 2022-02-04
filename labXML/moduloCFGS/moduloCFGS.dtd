@@ -1,0 +1,5 @@
+<!ELEMENT moduloCFGS (Contenidos*)>
+<!ELEMENT Contenidos (bloque+)>
+<!ELEMENT bloque (Titulo,Descripcion)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
