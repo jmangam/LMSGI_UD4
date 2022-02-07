@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clientesv2.xsd">
+            <sede codigo="A0000001">
+            <direccion>C/Castilla, 1</direccion>
+            <direccion>C/Castilla, 1</direccion>
+            <empleado>José luis Comesaña</empleado>
+            <fecha>10/02/2012</fecha>
+            <descripcion>Urgente</descripcion>
+            <cliente codigo="AAA-111">
+                <numero>12</numero>
+                <coste>100</coste>
+                <resumen>Producto muy frágil</resumen>
+                <plazo>10</plazo>
+            </cliente>
+            <cliente codigo="AAA-112">
+                <numero>10</numero>
+                <coste>10</coste>
+                <resumen>No apilar más de cinco paquetes</resumen>
+                <plazo>8</plazo>
+            </cliente>
+        </sede>
+        <sede codigo="A0000002">
+            <direccion>Avda. Gran Vía s/n</direccion>
+            <empleado>Antonio Resines</empleado>
+            <fecha>10-02-2012</fecha>
+            <cliente codigo="ABC-001">
+                <numero>5</numero>
+                <coste>50</coste>
+                <resumen />
+                <plazo>3</plazo>
+            </cliente>
+        </sede>
+    </clientes>

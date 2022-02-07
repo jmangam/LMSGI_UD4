@@ -16,18 +16,18 @@
         <xs:sequence>
             <xs:element name="direccion" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="empleado" type="xs:string"/>
-            <xs:element name="fecha" type="xs:string"/>
+            <xs:element name="fecha" type="xs:date"/>
             <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
-            <xs:element name="cliente" type="clientesdatos" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="cliente" type="clienteNdatos" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attribute name="codigo" type="codigotipo" use="required"/>
     </xs:complexType>
     <xs:simpleType name="codigotipo">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-z]([A-Za-Z0-9]){7}" />
+            <xs:pattern value="[A-Za-z]([A-Za-z0-9]){7}" />
         </xs:restriction>
     </xs:simpleType>
-    <xs:complexType name="clientesDatos">
+    <xs:complexType name="clienteNdatos">
         <xs:sequence>
             <xs:element name="numero">
                 <xs:simpleType>
@@ -56,7 +56,7 @@
     </xs:complexType>
     <xs:simpleType name="codigocliente">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Z] {3}-[0-9]){3}"/>
+            <xs:pattern value="[A-Z]{3}-[0-9]{3}"/>
         </xs:restriction>
     </xs:simpleType>    
 </xs:schema>
